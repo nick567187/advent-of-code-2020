@@ -11,3 +11,4 @@ func TestWorks(t *testing.T) {
 	day1.Find()
 	require.Equal(t, 0,0)
 }
+
