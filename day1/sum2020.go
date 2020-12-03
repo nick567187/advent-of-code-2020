@@ -1,6 +1,8 @@
 package day1
 
-var i = []int{1946,
+import "sort"
+
+var Input = []int{1946,
 	1859,
 	1654,
 	1806,
@@ -201,6 +203,33 @@ var i = []int{1946,
 	1879,
 	1652}
 
-func Find() {
+func FindTwoThatSum2020AndMultiply(input []int) int {
+	m := make(map[int]int)
+	for _, v := range input {
+		m[2020-v] = v
+	}
+	for _, v := range input {
+		if n, ok := m[v]; ok {
+			return v * n
+		}
+	}
+	return 0
+}
 
+func FindThreeThatSum2020AndMultiply(input []int) int {
+	sort.Ints(input)
+	for c := 0; c < len(input) - 2; c++ {
+		i := c + 1
+		j := len(input) - 1
+		for i < j {
+			if input[c] + input[i] + input[j] == 2020 {
+				return input[c] * input[i] * input[j]
+			} else if input[c] + input[i] + input[j] > 2020 {
+				j--
+			} else {
+				i++
+			}
+		}
+	}
+	return 0
 }
