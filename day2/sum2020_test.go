@@ -21,7 +21,31 @@ func TestParsePolicyRange(t *testing.T) {
 }
 
 func TestValidPasswords(t *testing.T) {
-	i := []day2.Policy{{3, 9, "n", "nnnlncrnnnnn"}}
+	i := []day2.Policy{{3, 9, "n", "nnnlncrnnnnn"}, {1, 2, "a", "aaa"}}
 	res := day2.ValidPasswords(i)
 	require.Equal(t, res, 1)
+}
+
+func TestPasswordPassesPolicy(t *testing.T) {
+	i := day2.Policy{3, 9, "n", "nnnlncrnnnnn"}
+	res := day2.PasswordPassesPolicy(i)
+	require.Equal(t, res, true)
+}
+
+func TestPasswordPassesPolicyExceedsRange(t *testing.T) {
+	i := day2.Policy{1, 3, "n", "nnnlncrnnnnn"}
+	res := day2.PasswordPassesPolicy(i)
+	require.Equal(t, res, false)
+}
+
+func TestPasswordPassesPolicyDoesNotMeetRange(t *testing.T) {
+	i := day2.Policy{2, 3, "n", "na"}
+	res := day2.PasswordPassesPolicy(i)
+	require.Equal(t, res, false)
+}
+
+func TestPasswordPassesPolicyDoesNotHaveLetter(t *testing.T) {
+	i := day2.Policy{1, 3, "a", "nnnlncrnnnnn"}
+	res := day2.PasswordPassesPolicy(i)
+	require.Equal(t, res, false)
 }

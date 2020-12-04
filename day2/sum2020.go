@@ -1054,12 +1054,21 @@ func PanicOnError(err error) {
 }
 
 func ValidPasswords(input []Policy) int {
-	// for i, v := range input {
-	// 	r := v[0]
-	// 	l := v[1]
-	// 	p := v[2]
+	var count int
+	for _, p := range input {
+		if PasswordPassesPolicy(p) {
+			count++
+		}
+	}
+	return count
+}
 
-	// }
-	// return n
-	return 1
+func PasswordPassesPolicy(p Policy) bool {
+	var count int
+	for _, v := range p.Password {
+		if p.Letter == string(v) {
+			count++
+		}
+	}
+	return count >= p.Lower && count <= p.Upper
 }
