@@ -22,30 +22,61 @@ func TestParsePolicyRange(t *testing.T) {
 
 func TestValidPasswords(t *testing.T) {
 	i := []day2.Policy{{3, 9, "n", "nnnlncrnnnnn"}, {1, 2, "a", "aaa"}}
-	res := day2.ValidPasswords(i)
+	res := day2.ValidPasswords(i, day2.PasswordPassesPart1Policy)
 	require.Equal(t, res, 1)
 }
 
-func TestPasswordPassesPolicy(t *testing.T) {
+func TestValidPasswordsPart1OriginalInput(t *testing.T) {
+	f := day2.FormatData(day2.Input)
+	res := day2.ValidPasswords(f, day2.PasswordPassesPart1Policy)
+	require.Equal(t, res, 378)
+}
+
+
+func TestValidPasswordsPart2OriginalInput(t *testing.T) {
+	f := day2.FormatData(day2.Input)
+	res := day2.ValidPasswords(f, day2.PasswordPassesPart2Policy)
+	require.Equal(t, res, 280)
+}
+
+func TestPasswordPassesPart1Policy(t *testing.T) {
 	i := day2.Policy{3, 9, "n", "nnnlncrnnnnn"}
-	res := day2.PasswordPassesPolicy(i)
+	res := day2.PasswordPassesPart1Policy(i)
 	require.Equal(t, res, true)
 }
 
-func TestPasswordPassesPolicyExceedsRange(t *testing.T) {
+func TestPasswordPassesPart1PolicyExceedsRange(t *testing.T) {
 	i := day2.Policy{1, 3, "n", "nnnlncrnnnnn"}
-	res := day2.PasswordPassesPolicy(i)
+	res := day2.PasswordPassesPart1Policy(i)
 	require.Equal(t, res, false)
 }
 
-func TestPasswordPassesPolicyDoesNotMeetRange(t *testing.T) {
+func TestPasswordPassesPart1PolicyDoesNotMeetRange(t *testing.T) {
 	i := day2.Policy{2, 3, "n", "na"}
-	res := day2.PasswordPassesPolicy(i)
+	res := day2.PasswordPassesPart1Policy(i)
 	require.Equal(t, res, false)
 }
 
-func TestPasswordPassesPolicyDoesNotHaveLetter(t *testing.T) {
+func TestPasswordPassesPart1PolicyDoesNotHaveLetter(t *testing.T) {
 	i := day2.Policy{1, 3, "a", "nnnlncrnnnnn"}
-	res := day2.PasswordPassesPolicy(i)
+	res := day2.PasswordPassesPart1Policy(i)
+	require.Equal(t, res, false)
+}
+
+func TestPasswordPassesPart2Policy(t *testing.T) {
+	i := day2.Policy{1, 3, "a", "abcde"}
+	res := day2.PasswordPassesPart2Policy(i)
+	require.Equal(t, res, true)
+}
+
+func TestPasswordPassesPart2PolicyFails(t *testing.T) {
+	i := day2.Policy{1, 3, "b", "cdefg"}
+	res := day2.PasswordPassesPart2Policy(i)
+	require.Equal(t, res, false)
+}
+
+func TestPasswordPassesPart2PolicyDoesNotMeetRange(t *testing.T) {
+	i := day2.Policy{2, 9, "c", "ccccccccc"}
+	res := day2.PasswordPassesPart2Policy(i)
 	require.Equal(t, res, false)
 }

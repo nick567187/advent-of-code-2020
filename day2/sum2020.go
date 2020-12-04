@@ -1053,17 +1053,17 @@ func PanicOnError(err error) {
 	}
 }
 
-func ValidPasswords(input []Policy) int {
+func ValidPasswords(input []Policy, f func(Policy) bool) int {
 	var count int
 	for _, p := range input {
-		if PasswordPassesPolicy(p) {
+		if f(p) {
 			count++
 		}
 	}
 	return count
 }
 
-func PasswordPassesPolicy(p Policy) bool {
+func PasswordPassesPart1Policy(p Policy) bool {
 	var count int
 	for _, v := range p.Password {
 		if p.Letter == string(v) {
@@ -1071,4 +1071,10 @@ func PasswordPassesPolicy(p Policy) bool {
 		}
 	}
 	return count >= p.Lower && count <= p.Upper
+}
+
+func PasswordPassesPart2Policy(p Policy) bool {
+	l := string(p.Password[p.Lower - 1]) == p.Letter
+	u := string(p.Password[p.Upper - 1]) == p.Letter
+	return l && !u || u && !l
 }
