@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19d79e32-550b-4222-872c-0ee7c6642dea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/custom.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/custom.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/custom_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/custom_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/day6/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

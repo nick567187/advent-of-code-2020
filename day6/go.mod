@@ -1,4 +1,4 @@
-module github.com/nick567187/advent-of-code-2020/day4
+module github.com/nick567187/advent-of-code-2020/day6
 
 go 1.15
 
