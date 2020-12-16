@@ -30,10 +30,12 @@ func ReadCustoms() [][]string {
 }
 
 func CountCustoms(customs [][]string) (count int) {
-	for _, v := range customs {
-		for range v {
-			count++
-		}
+	for _, custom := range customs {
+		for _, string := range custom {
+			for range string {
+				count++
+			}
+ 		}
 	}
 	return
 }
