@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19d79e32-550b-4222-872c-0ee7c6642dea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/boarding_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/day5/boarding_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day6/custom.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/custom.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/custom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day6/custom.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/custom_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/custom_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,51 +36,22 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nicholas.chang\Desktop\Dev\advent-of-code-2020" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCountCustoms in custom_test.go">
-    <configuration name="TestBinaryBoarding in boarding_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCountQuestionsEveryoneOriginalInput in custom_test.go">
+    <configuration name="TestCountCustoms in custom_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day5" />
+      <working_directory value="$PROJECT_DIR$/day6" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day5/boarding_test.go" />
-      <pattern value="^\QTestBinaryBoarding\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestBinaryBoardingMissingNumber in boarding_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day5" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day5/boarding_test.go" />
-      <pattern value="^\QTestBinaryBoardingMissingNumber\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestBinaryBoardingMissingNumberRawInput in boarding_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day5" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day5/boarding_test.go" />
-      <pattern value="^\QTestBinaryBoardingMissingNumberRawInput\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestBinaryBoardingRawInput in boarding_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day5" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day5/boarding_test.go" />
-      <pattern value="^\QTestBinaryBoardingRawInput\E$" />
+      <filePath value="$PROJECT_DIR$/day6/custom_test.go" />
+      <pattern value="^\QTestCountCustoms\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCountCustoms in custom_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -89,13 +64,43 @@
       <pattern value="^\QTestCountCustoms\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestCountCustomsOriginalInput in custom_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$/day6" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day6/custom_test.go" />
+      <pattern value="^\QTestCountCustomsOriginalInput\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCountQuestionsEveryoneOriginalInput in custom_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$/day6" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day6/custom_test.go" />
+      <pattern value="^\QTestCountQuestionsEveryoneOriginalInput\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCountQuestionsEveryoneYes in custom_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$/day6" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day6/custom_test.go" />
+      <pattern value="^\QTestCountQuestionsEveryoneYes\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCountQuestionsEveryoneOriginalInput in custom_test.go" />
+        <item itemvalue="Go Test.TestCountQuestionsEveryoneYes in custom_test.go" />
+        <item itemvalue="Go Test.TestCountCustomsOriginalInput in custom_test.go" />
+        <item itemvalue="Go Test.TestCountCustoms in custom_test.go (1)" />
         <item itemvalue="Go Test.TestCountCustoms in custom_test.go" />
-        <item itemvalue="Go Test.TestBinaryBoardingMissingNumberRawInput in boarding_test.go" />
-        <item itemvalue="Go Test.TestBinaryBoardingMissingNumber in boarding_test.go" />
-        <item itemvalue="Go Test.TestBinaryBoardingRawInput in boarding_test.go" />
-        <item itemvalue="Go Test.TestBinaryBoarding in boarding_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -113,5 +118,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day6/custom_test.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
