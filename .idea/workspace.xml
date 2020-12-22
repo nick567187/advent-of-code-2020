@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="19d79e32-550b-4222-872c-0ee7c6642dea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/boarding_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/day5/boarding_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/custom.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/custom.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/custom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day6/custom.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/custom_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/custom_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,64 +39,64 @@
       <recent name="C:\Users\nicholas.chang\Desktop\Dev\advent-of-code-2020" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCountQuestionsEveryoneOriginalInput in custom_test.go">
-    <configuration name="TestCountCustoms in custom_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestParseCommandsPart2Solution in handheld_test.go">
+    <configuration name="TestParseCommands in handheld_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day6" />
+      <working_directory value="$PROJECT_DIR$/day8" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day6/custom_test.go" />
-      <pattern value="^\QTestCountCustoms\E$" />
+      <filePath value="$PROJECT_DIR$/day8/handheld_test.go" />
+      <pattern value="^\QTestParseCommands\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCountCustoms in custom_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestParseCommandsOriginalInput in handheld_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day6" />
+      <working_directory value="$PROJECT_DIR$/day8" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day6/custom_test.go" />
-      <pattern value="^\QTestCountCustoms\E$" />
+      <filePath value="$PROJECT_DIR$/day8/handheld_test.go" />
+      <pattern value="^\QTestParseCommandsOriginalInput\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCountCustomsOriginalInput in custom_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestParseCommandsPart2Finishes in handheld_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day6" />
+      <working_directory value="$PROJECT_DIR$/day8" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day6/custom_test.go" />
-      <pattern value="^\QTestCountCustomsOriginalInput\E$" />
+      <filePath value="$PROJECT_DIR$/day8/handheld_test.go" />
+      <pattern value="^\QTestParseCommandsPart2Finishes\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCountQuestionsEveryoneOriginalInput in custom_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestParseCommandsPart2Solution in handheld_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day6" />
+      <working_directory value="$PROJECT_DIR$/day8" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day6/custom_test.go" />
-      <pattern value="^\QTestCountQuestionsEveryoneOriginalInput\E$" />
+      <filePath value="$PROJECT_DIR$/day8/handheld_test.go" />
+      <pattern value="^\QTestParseCommandsPart2Solution\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCountQuestionsEveryoneYes in custom_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestParseStringToRule in bag_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day6" />
+      <working_directory value="$PROJECT_DIR$/day7" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day6/custom_test.go" />
-      <pattern value="^\QTestCountQuestionsEveryoneYes\E$" />
+      <filePath value="$PROJECT_DIR$/day7/bag_test.go" />
+      <pattern value="^\QTestParseStringToRule\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCountQuestionsEveryoneOriginalInput in custom_test.go" />
-        <item itemvalue="Go Test.TestCountQuestionsEveryoneYes in custom_test.go" />
-        <item itemvalue="Go Test.TestCountCustomsOriginalInput in custom_test.go" />
-        <item itemvalue="Go Test.TestCountCustoms in custom_test.go (1)" />
-        <item itemvalue="Go Test.TestCountCustoms in custom_test.go" />
+        <item itemvalue="Go Test.TestParseCommandsPart2Solution in handheld_test.go" />
+        <item itemvalue="Go Test.TestParseCommandsPart2Finishes in handheld_test.go" />
+        <item itemvalue="Go Test.TestParseCommandsOriginalInput in handheld_test.go" />
+        <item itemvalue="Go Test.TestParseCommands in handheld_test.go" />
+        <item itemvalue="Go Test.TestParseStringToRule in bag_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +123,21 @@
           <url>file://$PROJECT_DIR$/day6/custom_test.go</url>
           <line>16</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day7/bag.go</url>
+          <line>68</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day8/handheld_test.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day8/handheld_test.go</url>
+          <line>58</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
