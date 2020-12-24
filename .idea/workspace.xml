@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19d79e32-550b-4222-872c-0ee7c6642dea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/jolt.go" beforeDir="false" afterPath="$PROJECT_DIR$/day10/jolt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/jolt_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/day10/jolt_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,28 +41,8 @@
       <recent name="C:\Users\nicholas.chang\Desktop\Dev\advent-of-code-2020" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestEncodingPart2OriginalInput in jolt_test.go">
-    <configuration name="TestEncodingPart1 in jolt_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day10" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day10/jolt_test.go" />
-      <pattern value="^\QTestEncodingPart1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestEncodingPart1Longer in jolt_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day10" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day10/jolt_test.go" />
-      <pattern value="^\QTestEncodingPart1Longer\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestEncodingPart1OriginalInput in jolt_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestEncodingPart2OriginalInput in jolt_test.go (1)">
+    <configuration name="TestEncodingPart1OriginalInput in jolt_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
       <working_directory value="$PROJECT_DIR$/day10" />
       <framework value="gotest" />
@@ -70,13 +52,23 @@
       <pattern value="^\QTestEncodingPart1OriginalInput\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestEncodingPart2OriginalInput in encoding_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEncodingPart2Longer in jolt_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day9" />
+      <working_directory value="$PROJECT_DIR$/day10" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day9/encoding_test.go" />
+      <filePath value="$PROJECT_DIR$/day10/jolt_test.go" />
+      <pattern value="^\QTestEncodingPart2Longer\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEncodingPart2OriginalInput in jolt_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$/day10" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day10/jolt_test.go" />
       <pattern value="^\QTestEncodingPart2OriginalInput\E$" />
       <method v="2" />
     </configuration>
@@ -90,13 +82,23 @@
       <pattern value="^\QTestEncodingPart2OriginalInput\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestEncodingPart2Short in jolt_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <working_directory value="$PROJECT_DIR$/day10" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day10/jolt_test.go" />
+      <pattern value="^\QTestEncodingPart2Short\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestEncodingPart2OriginalInput in jolt_test.go (1)" />
+        <item itemvalue="Go Test.TestEncodingPart2Longer in jolt_test.go" />
+        <item itemvalue="Go Test.TestEncodingPart2Short in jolt_test.go" />
+        <item itemvalue="Go Test.TestEncodingPart1OriginalInput in jolt_test.go (1)" />
         <item itemvalue="Go Test.TestEncodingPart2OriginalInput in jolt_test.go" />
-        <item itemvalue="Go Test.TestEncodingPart1OriginalInput in jolt_test.go" />
-        <item itemvalue="Go Test.TestEncodingPart1 in jolt_test.go" />
-        <item itemvalue="Go Test.TestEncodingPart1Longer in jolt_test.go" />
-        <item itemvalue="Go Test.TestEncodingPart2OriginalInput in encoding_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -149,12 +151,12 @@
           <line>23</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day10/jolt.go</url>
+          <line>45</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="GoTestRunConfiguration">
-        <watch expression="" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

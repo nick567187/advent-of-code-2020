@@ -40,19 +40,48 @@ func JoltPart1(input []int) int {
 	return differences[1] * (differences[3] + 1)
 }
 
-func JoltPart2Helper(input []int, currentValue, currentIndex int, cache []int) int {
-	var total int
-	if currentIndex > 0 && currentIndex < len(input) && cache[currentIndex] > 0 {
-		return cache[currentIndex]
+func JoltPart2Helper(input []int) int {
+	input = append(input, 0)
+	sort.Ints(input)
+	input = append(input, input[len(input)-1] + 3)
+	return dynamicProgram(input)
+}
+
+func memoize(input []int, i int, memo []int) int {
+	if v := memo[i]; v != 0 {
+		return v
 	}
-	for nextIndex := currentIndex + 1; nextIndex <= nextIndex+3 && nextIndex<len(input); nextIndex++ {
-		nextValue := input[nextIndex]
-		if nextValue-currentValue <= 3 {
-			helper := JoltPart2Helper(input, nextIndex, nextValue, cache)
-			cache[nextIndex] = helper
-			total += helper
+	if i == len(input) - 1 {
+		return 1
+	}
+	total := 0
+
+	if i + 1 < len(input) && input[i + 1] - input[i] <= 3 {
+		total += memoize(input, i + 1, memo)
+	}
+	if i + 2 < len(input) && (input[i + 2] - input[i] <= 3) {
+		total += memoize(input, i + 2, memo)
+	}
+	if i + 3 < len(input) && (input[i + 3] - input[i] <= 3) {
+		total += memoize(input, i + 3, memo)
+	}
+	memo[i] = total
+	return total
+}
+
+func dynamicProgram(input []int) int {
+	dp := make([]int, len(input))
+	dp[0] = 1
+
+	for i := 1; i < len(input); i++ {
+		currJolt := input[i]
+		for j := i - 1; j >= 0; j-- {
+			if currJolt - input[j] <= 3 {
+				dp[i] += dp[j]
+			} else {
+				break
+			}
 		}
 	}
-
-	return total
+	return dp[len(dp)-1]
 }

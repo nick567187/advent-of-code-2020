@@ -69,11 +69,65 @@ func TestEncodingPart1OriginalInput(t *testing.T) {
 	require.Equal(t, 2380, res)
 }
 
-func TestEncodingPart2OriginalInput(t *testing.T) {
-	i := day10.ReadInput()
-	cache := make([]int, len(i))
-	cache[len(i)-1] = 1
-	res := day10.JoltPart2Helper(i, 0, -1, cache)
-	require.Equal(t, 2380, res)
+func TestEncodingPart2Short(t *testing.T) {
+	var i = []int{
+		0,
+		16,
+		10,
+		15,
+		5,
+		1,
+		11,
+		7,
+		19,
+		6,
+		12,
+		4,
+	}
+	res := day10.JoltPart2Helper(i)
+	require.Equal(t, 8, res)
 }
 
+func TestEncodingPart2Longer(t *testing.T) {
+	var i = []int{
+		28,
+		33,
+		18,
+		42,
+		31,
+		14,
+		46,
+		20,
+		48,
+		47,
+		24,
+		23,
+		49,
+		45,
+		19,
+		38,
+		39,
+		11,
+		1,
+		32,
+		25,
+		35,
+		8,
+		17,
+		7,
+		9,
+		4,
+		2,
+		34,
+		10,
+		3,
+	}
+	res := day10.JoltPart2Helper(i)
+	require.Equal(t, 19208, res)
+}
+
+func TestEncodingPart2OriginalInput(t *testing.T) {
+	i := day10.ReadInput()
+	res := day10.JoltPart2Helper(i)
+	require.Equal(t, 2380, res)
+}
