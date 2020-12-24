@@ -39,64 +39,64 @@
       <recent name="C:\Users\nicholas.chang\Desktop\Dev\advent-of-code-2020" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestParseCommandsPart2Solution in handheld_test.go">
-    <configuration name="TestParseCommands in handheld_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestEncodingPart2OriginalInput in jolt_test.go">
+    <configuration name="TestEncodingPart1 in jolt_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day8" />
+      <working_directory value="$PROJECT_DIR$/day10" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day8/handheld_test.go" />
-      <pattern value="^\QTestParseCommands\E$" />
+      <filePath value="$PROJECT_DIR$/day10/jolt_test.go" />
+      <pattern value="^\QTestEncodingPart1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestParseCommandsOriginalInput in handheld_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEncodingPart1Longer in jolt_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day8" />
+      <working_directory value="$PROJECT_DIR$/day10" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day8/handheld_test.go" />
-      <pattern value="^\QTestParseCommandsOriginalInput\E$" />
+      <filePath value="$PROJECT_DIR$/day10/jolt_test.go" />
+      <pattern value="^\QTestEncodingPart1Longer\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestParseCommandsPart2Finishes in handheld_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEncodingPart1OriginalInput in jolt_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day8" />
+      <working_directory value="$PROJECT_DIR$/day10" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day8/handheld_test.go" />
-      <pattern value="^\QTestParseCommandsPart2Finishes\E$" />
+      <filePath value="$PROJECT_DIR$/day10/jolt_test.go" />
+      <pattern value="^\QTestEncodingPart1OriginalInput\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestParseCommandsPart2Solution in handheld_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEncodingPart2OriginalInput in encoding_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day8" />
+      <working_directory value="$PROJECT_DIR$/day9" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day8/handheld_test.go" />
-      <pattern value="^\QTestParseCommandsPart2Solution\E$" />
+      <filePath value="$PROJECT_DIR$/day9/encoding_test.go" />
+      <pattern value="^\QTestEncodingPart2OriginalInput\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestParseStringToRule in bag_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEncodingPart2OriginalInput in jolt_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
-      <working_directory value="$PROJECT_DIR$/day7" />
+      <working_directory value="$PROJECT_DIR$/day10" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day7/bag_test.go" />
-      <pattern value="^\QTestParseStringToRule\E$" />
+      <filePath value="$PROJECT_DIR$/day10/jolt_test.go" />
+      <pattern value="^\QTestEncodingPart2OriginalInput\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestParseCommandsPart2Solution in handheld_test.go" />
-        <item itemvalue="Go Test.TestParseCommandsPart2Finishes in handheld_test.go" />
-        <item itemvalue="Go Test.TestParseCommandsOriginalInput in handheld_test.go" />
-        <item itemvalue="Go Test.TestParseCommands in handheld_test.go" />
-        <item itemvalue="Go Test.TestParseStringToRule in bag_test.go" />
+        <item itemvalue="Go Test.TestEncodingPart2OriginalInput in jolt_test.go" />
+        <item itemvalue="Go Test.TestEncodingPart1OriginalInput in jolt_test.go" />
+        <item itemvalue="Go Test.TestEncodingPart1 in jolt_test.go" />
+        <item itemvalue="Go Test.TestEncodingPart1Longer in jolt_test.go" />
+        <item itemvalue="Go Test.TestEncodingPart2OriginalInput in encoding_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,22 @@
           <line>58</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day9/encoding.go</url>
+          <line>75</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day10/jolt_test.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoTestRunConfiguration">
+        <watch expression="" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
